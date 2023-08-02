@@ -33,14 +33,20 @@ section#telefone {
 
 }
 
-section#botoes {
-    height: 100px;
-    width: 100px;
+section#telefone iframe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 473px;
+    width: 268px;
+
 }
 
-section.imagem {
-    height: 50px;
+section#botoes img {
     width: 50px;
+    padding: 10px;
 }
 
 iframe#tela {
